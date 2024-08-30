@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Default font */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #0a0101; /* Ensure text is readable on the backgrounds */
+}
+
+/* Header Section */
+header {
+  background-image: url('../images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 60px 0;
+  text-align: center;
+  font-family: 'Lobster', cursive; /* Fancy font for the header */
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; /* A different font for the links */
+}
+
+/* About Section */
+#about {
+  background-image: url('../images/about-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px; 
+}
+
+#about img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 15px auto;
+  text-align: justify;
+  font-family: 'Merriweather', serif;
+  background-color: rgba(177, 240, 227, 0.986); /* To make text more readable */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+  background-image: url('../images/projects-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  color: #000; /* Black text for contrast */
+  align-items: left;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px;
+}
+
+#projects p {
+  max-width: 700px;
+  margin: 15px auto;
+  text-align: justify;
+  font-family: 'Merriweather', serif;
+  background-color: rgba(148, 205, 243, 0.986); /* To make text more readable */
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#projects .project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#projects .project-item {
+  flex-basis: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#projects .project-item img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+#projects .project-item h3 {
+  margin-top: 10px;
+  background-color: rgb(73, 160, 223);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+  background-image: url('../images/contact-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Footer Section */
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+}
